@@ -21,3 +21,24 @@ Accounting for runtime of methods. Also, This shows provides a record of service
 
 **Other logging options**
 Log exceptions and other information.
+
+
+
+## Other
+
+For testing, the following importable  options are available in the  documentation folder in root of maven project.
+
+- JMeter
+- Postman
+
+
+
+## Futures 
+
+Below I list possible further improvements
+
+- Getting property files out of the jar for the pleasure of operators
+- Handler larger log files
+- Implementation for MongoDB
+- Make Unit test for services and more JMeter sampler 
+
