@@ -9,15 +9,14 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
 
-
+/**
+ *This class provides the basic logger configurations from properties file.
+ */
 @Component
 @ConfigurationProperties(prefix = "ejlogger")
 @PropertySource("classpath:logging.properties")
 @Validated
 public class EJLoggerProperties {
-    /**
-     *This class provides the basic logger configurations from properties file.
-     */
 
     @NotEmpty
     private String url;
