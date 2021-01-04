@@ -24,6 +24,8 @@ If you want to try out the applications then all you have to do is clone the pro
 
 ```
 $ git clone https://github.com/byhi/EJProject.git
+$ cd EJProject
+$ mvn clean install
 ```
 
 **Database**
